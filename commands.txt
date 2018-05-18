@@ -1,0 +1,36 @@
+pip3选择国内源:	-i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3列出安装包:	pip list   
+安装软件包：	sudo apt-cache search all|grep *
+解压tar.gz: 	tar  -zxvf   压缩文件名.tar.gz
+
+
+任务后台运行：	bg %jobnumber  （jobs查看jobnumber） 
+
+
+GIT:
+	git init
+	
+	git status 
+
+	git add .
+	
+	git remote add origin https://github.com/a9x26j8i/the_first
+
+	git remote add second https://github.com/...
+
+	git checkout -b iris2
+	
+	git branch
+
+	git checkout iris2
+
+	git commit -m "a new change submitted."
+
+	git push origin iris2
+
+	
+	git push --set-upstream origin iris
+
+	git reset HEAD^ 回退一个版本
+	
+	
